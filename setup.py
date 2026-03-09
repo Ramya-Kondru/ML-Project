@@ -1,7 +1,7 @@
 from setuptools import find_packages,setup
 from typing import List
 
-
+# def get_requirements(file_path:str)->List[str]:-returns a list of strings
 HYPEN_E_DOT='-e .'
 def get_requirements(file_path:str)->List[str]:
     '''
